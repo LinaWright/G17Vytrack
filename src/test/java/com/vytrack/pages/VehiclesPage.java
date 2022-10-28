@@ -16,8 +16,10 @@ public class VehiclesPage {
 
     @FindBy (xpath = "//a[@title='CSV']")
     public WebElement csv;
-    @FindBy(css = "a.action.btn.refresh-action.mode-text-only")
+    @FindBy(xpath = "//a[@title='Refresh']")
     public WebElement refreshBtn;
+
+
 
 
 }

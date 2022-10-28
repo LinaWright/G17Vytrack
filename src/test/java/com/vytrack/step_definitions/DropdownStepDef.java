@@ -33,7 +33,6 @@ public class DropdownStepDef {
     }
     @When("the user clicks on Fleet module")
     public void the_user_clicks_on_fleet_module() {
-
         Actions actions = new Actions(Driver.getDriver());
         actions.moveToElement(fleetManagementPage.fleetModuleBtn).perform();
     }
